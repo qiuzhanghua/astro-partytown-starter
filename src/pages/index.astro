@@ -1,0 +1,30 @@
+---
+import Card from '../components/Card.astro'
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Astro</title>
+    <script type="text/javascript">
+        window.boats = window.boats || [];
+        window.boats.push('Astro');
+    </script>
+    <script type="text/partytown">
+        console.log('start');
+        big = 999999999;
+        while (big > 0) {
+            big--;
+        }
+        console.log('done');
+        window.boats = window.boats || [];
+        window.boats.push('Partytown');
+    </script>
+</head>
+<body>
+<h1>Astro</h1>
+<Card title="Counter + Button"/>
+</body>
+</html>
